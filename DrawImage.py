@@ -36,7 +36,7 @@ img=img.resize((70*w,70*h),PIL.Image.NEAREST)
 
 for i in range(whitepiececount):
     whiteposition=input()
-    x=Image.alpha_composite(Image.new("RGB",(2,2),colour[whiteposition[1:]]).convert("RGBA").resize((70,70)),Image.open("White"+whiteposition[0:1]+".png").resize((70,70)))
+    x=Image.alpha_composite(Image.new("RGB",(2,2),colour[whiteposition[1:]]).convert("RGBA").resize((70,70)),Image.open("Assets/White/"+whiteposition[0:1]+".png").resize((70,70)))
     img.paste(x,pos[whiteposition[1:]])
 
 print("Enter number of white pieces and their positions:")
@@ -45,7 +45,7 @@ blackposition=""
 
 for i in range(blackpiececount):
     blackposition=input()
-    x=Image.alpha_composite(Image.new("RGB",(2,2),colour[blackposition[1:]]).convert("RGBA").resize((70,70)),Image.open("Black"+blackposition[0:1]+".png").resize((70,70)))
+    x=Image.alpha_composite(Image.new("RGB",(2,2),colour[blackposition[1:]]).convert("RGBA").resize((70,70)),Image.open("Assets/Black/"+blackposition[0:1]+".png").resize((70,70)))
     img.paste(x,pos[blackposition[1:]])
 
 
