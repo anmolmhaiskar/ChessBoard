@@ -33,6 +33,6 @@ And to understand the ranks better you can see the chess board image which is in
 Ranks are denoted in lower case alphabets and numbers
 ranks:(a,b,c,d,e,f,g,h),(1,2,3,4,5,6,7,8)
 so if there is a "pawn" on a3
-then user will enter : Pa3
+then it is represented as Pa3
 
 
