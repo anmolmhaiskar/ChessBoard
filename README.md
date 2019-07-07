@@ -1,7 +1,7 @@
 This project is based on chess.User will have to input positions of the chess pieces and the corresponding image of chessboard along with pieces will be displayed to the user.
 Hence  this project helps chess players to develop tactics by allowing them to position pieces as per their requirement.
 
-The input format is as follows:
+The input format is as follows :
 
 Name of the pieces should be in this form
 P stands for Pawn
