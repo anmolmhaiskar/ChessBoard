@@ -4,12 +4,12 @@ Hence  this project helps chess players to develop tactics by allowing them to p
 The input format is as follows :
 
 Name of the pieces should be in this form
-P stands for Pawn
-N stands for Knight
-R stands for Rook
-Q stands for Queen
-K stands for King
-B stands for Bishop
+P stands for Pawn.
+N stands for Knight.
+R stands for Rook.
+Q stands for Queen.
+K stands for King.
+B stands for Bishop.
 
 
 1)Enter total number of white pieces:
